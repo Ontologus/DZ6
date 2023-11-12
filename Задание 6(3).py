@@ -1,3 +1,6 @@
+a = int(input())
+b = int(input())
+c = int(input())
 def maximum(a, b, c=0):
   if c == 0:
     if a > b:
@@ -11,3 +14,5 @@ def maximum(a, b, c=0):
     if c > temp:
       temp = c
     return temp
+print(maximum(a, b, c))
+#ввод переменных для проверки
