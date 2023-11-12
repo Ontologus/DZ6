@@ -7,3 +7,4 @@ def reg(last_name, first_name, patronymic, age):
   res = (last_name, first_name, patronymic, str(birth_year), 'г.р.', 'зарегистрирован')
   return ' '.join(res)
 print(reg(last_name, first_name, patronymic, age))
+#сделал ввод снаружи, т.к увидел информацию в тг
